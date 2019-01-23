@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" width="1800" height="900">
+  <defs>
+    <clipPath id="a">
+      <path d="M0 0h1800v900H0z"/>
+    </clipPath>
+    <style>
+      #line {
+        stroke-dasharray: 2170.789306640625;
+        stroke-dashoffset: 2170.789306640625;
+        stroke-width: 10;
+        animation: dash 3s ease forwards;
+      }
+
+      @keyframes dash {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+    </style>
+  </defs>
+  <g clip-path="url(#a)">
+    <linearGradient id="b" x1=".5" y1=".998" x2=".5" y2=".038" gradientTransform="matrix(1800 0 0 780 0 120)" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-opacity="0" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#73c1f4"/>
+    </linearGradient>
+    <path d="M1800 900H0V480l420-180 320 280 400-340 360 120 300-240v780z" fill="url(#b)"/>
+    <path id="line" d="M0 480l420-180 320 280 400-340 360 120 300-240" fill="none" vector-effect="non-scaling-stroke" stroke="#209CEE" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle vector-effect="non-scaling-stroke" cx="740" cy="580" r="15" fill="#209CEE"/>
+    <circle vector-effect="non-scaling-stroke" cx="740" cy="580" r="10" fill="#FFF"/>
+    <circle vector-effect="non-scaling-stroke" cx="1140" cy="240" r="15" fill="#209CEE"/>
+    <circle vector-effect="non-scaling-stroke" cx="1140" cy="240" r="10" fill="#FFF"/>
+    <g>
+      <circle vector-effect="non-scaling-stroke" cx="420" cy="300" r="15" fill="#209CEE"/>
+      <circle vector-effect="non-scaling-stroke" cx="420" cy="300" r="10" fill="#FFF"/>
+    </g>
+    <g>
+      <circle vector-effect="non-scaling-stroke" cx="1500" cy="360" r="15" fill="#209CEE"/>
+      <circle vector-effect="non-scaling-stroke" cx="1500" cy="360" r="10" fill="#FFF"/>
+    </g>
+  </g>
+</svg>
